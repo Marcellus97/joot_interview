@@ -5,7 +5,7 @@ const repairs = require('../controllers/repairsController');
 router.get('/', repairs.getAll);
 router.get('/:id', repairs.get);
 router.post('/', repairs.create);
-router.put('/:id', repairs.update);
+router.put('/:id', repairs.put);
 router.delete('/:id', repairs.delete);
 
 module.exports = router;

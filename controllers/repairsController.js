@@ -24,7 +24,7 @@ exports.create = async function(req, res) {
     });
 }
 
-exports.update = async function(req, res) {
+exports.put = async function(req, res) {
     const id = req.params.id;
     const params = req.body;
     // new option returns us the updated value
