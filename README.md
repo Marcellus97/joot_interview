@@ -15,6 +15,7 @@ as this was the first time i actually used them.
 Simply clone the git repository and change the mongodb connection string,
 which is found in api.js
 
+I have been using mongodb version v4.0.8
 Currently, I've running mongodb with the following command:
 // mongod --dbpath ./mongodb --port 1234
 
