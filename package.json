@@ -1,0 +1,27 @@
+{
+  "name": "joot_interview",
+  "version": "1.0.0",
+  "description": "Joot interview code",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcellus97/joot_interview.git"
+  },
+  "author": "marcellus mohanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcellus97/joot_interview/issues"
+  },
+  "homepage": "https://github.com/Marcellus97/joot_interview#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7"
+  }
+}
